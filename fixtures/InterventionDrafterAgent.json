@@ -1,0 +1,12 @@
+{
+  "priorityRank": 1,
+  "assetType": "quickstart",
+  "title": "Your first successful call: an enterprise quickstart",
+  "learningObjectives": [
+    "Make an authenticated API call from the SDK within 15 minutes of signup",
+    "Choose the right model tier and avoid day-one rate-limit errors",
+    "Run a second, slightly more advanced call to confirm the integration path"
+  ],
+  "draft": "# Your first successful call (enterprise quickstart)\n\nGoal: from a fresh enterprise account to two working API calls in under 20 minutes. No prior context assumed.\n\n## Before you start (1 min)\n- You have an org and an API key.\n- Pick the SDK for your language (this guide uses Python).\n\n## Step 1 — Authenticate (3 min)\nSet your key as an environment variable (not in code), install the SDK, and run the minimal example. If you get a 401, the key isn't on your path — re-check the env var.\n\n## Step 2 — Your first call (5 min)\nSend a single chat completion. Expected: a response object you can print. If you hit a 429 rate-limit error, you're on the default tier — see *Tiers & limits* below; you do not need to change code.\n\n## Step 3 — A second, real call (7 min)\nMake one call that reflects your actual use case (e.g. summarize a document). This is the step telemetry shows most new orgs never reach — completing it is the strongest predictor of staying.\n\n## Tiers & limits (reference)\nA short table of tiers and what raises them, so day-one 429s don't read as failure.\n\n## Where to go next\nLinks to the long-context decision guide and the agents path.\n\n> Facilitator note: this quickstart targets the '70% never make a second call' signal — the success metric is the 7-day second-call rate, not completion of step 1.",
+  "distributionChannel": "In-product onboarding + welcome email + docs getting-started landing page"
+}

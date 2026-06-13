@@ -1,0 +1,11 @@
+{
+  "themes": [
+    { "id": "t1", "name": "Outdated long-context guidance", "signalRefs": ["s1", "s5"], "frequency": 2, "severity": "high", "summary": "Docs and habits still point to chunking while the product has moved to 1M context, creating confusion even as power users see big wins." },
+    { "id": "t2", "name": "Realtime API onboarding friction", "signalRefs": ["s2", "s4"], "frequency": 2, "severity": "high", "summary": "First-connection failures and missing reconnect examples stall Realtime adoption right at the start." },
+    { "id": "t3", "name": "Weak first-run onboarding", "signalRefs": ["s3", "s7"], "frequency": 2, "severity": "high", "summary": "Most new enterprise orgs never reach a second call; getting-started material assumes too much and lacks a guided path." },
+    { "id": "t4", "name": "No fine-tuning migration path", "signalRefs": ["s6"], "frequency": 1, "severity": "medium", "summary": "Accounts need a step-by-step migration before the Q4 deprecation deadline." },
+    { "id": "t5", "name": "Lack of production-agent proof", "signalRefs": ["s8"], "frequency": 1, "severity": "medium", "summary": "Prospects want evidence that enterprises run agents reliably in production." },
+    { "id": "t6", "name": "Billing model surprise (Realtime per-minute)", "signalRefs": ["s9"], "frequency": 1, "severity": "low", "summary": "Per-minute billing for Realtime surprised a finance team expecting per-token." }
+  ],
+  "topFriction": "Weak first-run onboarding — it caps the value of everything else because most orgs never get past the first call."
+}

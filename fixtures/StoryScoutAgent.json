@@ -1,0 +1,11 @@
+{
+  "candidates": [
+    {
+      "customerHint": "a data team at a large enterprise (Acme)",
+      "signalRefs": ["s5"],
+      "narrative": "Replaced an entire RAG/chunking pipeline with a single long-context approach after the 1M-context release, removing pipeline complexity and improving answer quality.",
+      "whyCompelling": "Concrete before/after with deleted infrastructure — the most persuasive kind of adoption story, and the team is willing to talk.",
+      "assetIdea": "A short customer story + a 'long context vs RAG' decision guide and demo, doubling as the doc-update for theme t1."
+    }
+  ]
+}

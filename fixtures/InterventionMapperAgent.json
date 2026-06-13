@@ -1,0 +1,12 @@
+{
+  "mappings": [
+    { "themeId": "t3", "themeName": "Weak first-run onboarding", "category": "education", "educationAddressable": true, "recommendedAsset": "quickstart", "expectedImpact": "Lift 7-day second-call rate by giving new orgs a guided path to a first success.", "rationale": "Telemetry + review point to a knowledge/path gap, not a product defect — a focused quickstart and guided path is the highest-leverage education fix." },
+    { "themeId": "t1", "themeName": "Outdated long-context guidance", "category": "education", "educationAddressable": true, "recommendedAsset": "doc_update", "expectedImpact": "Remove the chunking-vs-long-context confusion and convert the Acme win into a repeatable pattern.", "rationale": "Partly docs, partly education. Update the guidance and add a short decision aid; the product itself is fine." },
+    { "themeId": "t2", "themeName": "Realtime API onboarding friction", "category": "docs", "educationAddressable": true, "recommendedAsset": "faq", "expectedImpact": "Unblock first connections with a reconnect-handling example and a troubleshooting FAQ.", "rationale": "The missing reconnect example is a docs/education gap that education can ship quickly; the underlying drops may also need a product look." },
+    { "themeId": "t4", "themeName": "No fine-tuning migration path", "category": "education", "educationAddressable": true, "recommendedAsset": "quickstart", "expectedImpact": "Give at-risk accounts a clear migration before the Q4 deadline.", "rationale": "A bounded, well-understood task that a migration quickstart solves directly." },
+    { "themeId": "t5", "themeName": "Lack of production-agent proof", "category": "education", "educationAddressable": true, "recommendedAsset": "adoption_guide", "expectedImpact": "Arm sales with a reliability-focused adoption guide / proof narrative.", "rationale": "Education-addressable via proof content and a reliability playbook, pairing well with the Acme story." },
+    { "themeId": "t6", "themeName": "Billing model surprise (Realtime per-minute)", "category": "pricing", "educationAddressable": false, "recommendedAsset": "none", "expectedImpact": "—", "rationale": "Root cause is the pricing model and how it's surfaced at purchase, not a knowledge gap. Route to Pricing/Product; a webinar would not fix the surprise." }
+  ],
+  "educationCount": 5,
+  "deferredCount": 1
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Launch Content Studio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1 id="brandTitle">Launch Content Studio</h1>
+    <span class="badge" id="backendBadge">backend: …</span>
+    <span class="tagline" id="brandTagline"></span>
+    <span class="spacer"></span>
+    <span class="cost" id="costMeter"></span>
+    <div class="sse"><span>SSE</span><div class="dot" id="sseDot"></div></div>
+  </header>
+
+  <div class="layout">
+    <div class="col left">
+      <div class="card" id="startCard">
+        <h2>New Launch</h2>
+        <textarea id="inputText" placeholder="Describe the product launch…"></textarea>
+        <div class="examples" id="examples">Load example: </div>
+        <button class="btn-primary" id="startBtn">Run Pipeline</button>
+        <div class="hint">Runs with human-in-the-loop gates at each critical stage. Keep this tab open.</div>
+      </div>
+
+      <div class="card">
+        <h2>Pipeline</h2>
+        <ul class="stages" id="stageList"></ul>
+      </div>
+
+      <div class="card">
+        <h2>Recent Runs</h2>
+        <div id="runList" class="muted" style="font-size:12px">No runs yet.</div>
+      </div>
+    </div>
+
+    <div class="col right" id="rightCol">
+      <div class="idle" id="idlePane">
+        <svg width="46" height="46" fill="none" stroke="currentColor" stroke-width="1.4" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 2"/></svg>
+        <div>Start a run, then approve or reject each stage here.</div>
+      </div>
+      <div id="reviewPane"></div>
+    </div>
+  </div>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

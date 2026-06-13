@@ -1,0 +1,14 @@
+{
+  "signals": [
+    { "id": "s1", "source": "support_ticket", "text": "Docs show the old chunking approach but the API now has 1M context — which is right? Spent a day confused.", "sentiment": "negative", "productArea": "long-context / RAG" },
+    { "id": "s2", "source": "support_ticket", "text": "Realtime API websocket keeps dropping, no example for reconnect handling.", "sentiment": "negative", "productArea": "Realtime API" },
+    { "id": "s3", "source": "usage_telemetry", "text": "70% of new enterprise orgs never make a second API call within 7 days of signup.", "sentiment": "negative", "productArea": "onboarding" },
+    { "id": "s4", "source": "usage_telemetry", "text": "Realtime API adoption flat despite launch; most trials stop after the first failed connection.", "sentiment": "negative", "productArea": "Realtime API" },
+    { "id": "s5", "source": "cs_note", "text": "Acme's data team loves long-context — replaced their whole RAG pipeline, huge win, happy to talk.", "sentiment": "positive", "productArea": "long-context / RAG" },
+    { "id": "s6", "source": "cs_note", "text": "Three accounts asked for a step-by-step fine-tuning migration; worried about the Q4 deadline.", "sentiment": "neutral", "productArea": "fine-tuning" },
+    { "id": "s7", "source": "review", "text": "Love the latency improvement but onboarding is a maze.", "sentiment": "neutral", "productArea": "onboarding" },
+    { "id": "s8", "source": "sales_note", "text": "Prospect stalled — wants proof other enterprises run agents reliably in prod before signing.", "sentiment": "neutral", "productArea": "agents" },
+    { "id": "s9", "source": "support_ticket", "text": "Billing for Realtime is per-minute but our finance team budgeted per-token; caught us off guard.", "sentiment": "negative", "productArea": "billing" }
+  ],
+  "totalCount": 9
+}
