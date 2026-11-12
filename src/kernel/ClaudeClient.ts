@@ -68,7 +68,7 @@ async function cliComplete(req: CompletionRequest): Promise<CompletionResult> {
   const bin = resolveClaudeBin();
   const useShell = process.platform === "win32";
   // Under shell:true the command line is concatenated, so a path containing
-  // spaces (e.g. "C:\Users\Justin O\...") must be quoted or cmd splits on it.
+  // spaces (e.g. "C:\Users\<user name>\...") must be quoted or cmd splits on it.
   const spawnBin = useShell && /\s/.test(bin) ? `"${bin}"` : bin;
 
   return new Promise<CompletionResult>((resolve, reject) => {
